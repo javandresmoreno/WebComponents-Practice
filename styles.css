@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Chelsea Market", cursive;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+all-cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.header {
+  background: red;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+.header a {
+  font-size: 30px;
+  color: white;
+}
+
+.header a:hover {
+  color: rgb(255, 148, 148);
+}
+
+.header small {
+  font-size: 21px;
+  color: rgb(255, 148, 148);
+}
